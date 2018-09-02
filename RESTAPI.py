@@ -4,9 +4,11 @@ Created on Fri Sep 22 11:20:05 2017
 
 @author: Administrator
 """
-import APIS.api_settings as settings
+#import APIS.api_settings as settings
 import pandas as pd
-from web.Connection import Connection
+import api_settings as settings
+from Connection import Connection
+#from web.Connection import Connection
 import time
 #from database.DatabaseInterface import DatabaseInterface
 

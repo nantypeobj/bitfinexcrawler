@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
-import APIS.api_settings as settings
-from APIS.RESTAPI import RESTAPI
-import common.base as base
+#import APIS.api_settings as settings
+#from APIS.RESTAPI import RESTAPI
+#import common.base as base
+import base
+import api_settings as settings
+from RESTAPI import RESTAPI
 import datetime
 import re
 import time
@@ -13,15 +16,11 @@ import hashlib
 
 
 class BitfinexAPI(RESTAPI):
-    """
-    Client for the bitfinex.com API.
-    See https://www.bitfinex.com/pages/api for API documentation.
-    """
-    
+        
     def __init__(self,apiname='BITFINEX'):
         key,secret=settings.APIKEY[apiname]
-        super(BitfinexAPI, self). __init__(key,secret,apiname,use_proxy=True)
-    
+        #print (key)
+        super(BitfinexAPI, self). __init__(key,secret,apiname,use_proxy=False) 
     def get_data(self,url,method='GET',headers={},params={},verify=True):
         for i in range(3):
             try:

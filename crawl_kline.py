@@ -4,14 +4,17 @@ Created on Fri Feb  9 08:42:51 2018
 
 @author: Administrator
 """
-PATH=r'C:\Users\Administrator.ZX-201609072125\Desktop\cryptocurrency'
+#PATH=r'C:\Users\Administrator.ZX-201609072125\Desktop\cryptocurrency'
 #import os,sys
 #os.chdir(path=PATH)
-from APIS.BitfinexAPI import BitfinexAPI
-from database.DatabaseInterface import DatabaseInterface
+#from APIS.BitfinexAPI
+#from database.DatabaseInterface import DatabaseInterface
 import crawl_config as conf
 import time
-import common.base as base
+#import common.base as base
+from BitfinexAPI import BitfinexAPI
+from DatabaseInterface import DatabaseInterface
+import base
 
 
 def crawldata(pair,timeframe,start,end):

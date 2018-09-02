@@ -5,18 +5,19 @@ Created on Mon Apr 18 18:47:37 2016
 @author: warriorzhai
 """
 PATH=r'C:\Users\Administrator.ZX-201609072125\Desktop\trading_backtest'
-import os,sys
-os.chdir(path=PATH)
-import sys
+#import os,sys
+#os.chdir(path=PATH)
+#import sys
 import pymongo
 import time
 import json
 import pandas as pd
-import database.db_settings as settings
-import database.db_tables as tables
-import common.base as base
-
-
+#import database.db_settings as settings
+#import database.db_tables as tables
+#import common.base as base
+import base
+import db_settings as settings
+#import  db_tables as tables
 
 class DatabaseInterface(object):
     
