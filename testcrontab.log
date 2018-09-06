@@ -1295,3 +1295,11 @@ TabError: inconsistent use of tabs and spaces in indentation
     updatesignal(sys.argv[1],sys.argv[2],usedb)
                                               ^
 TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation

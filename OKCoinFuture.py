@@ -25,8 +25,7 @@ class OKCoinFuture(RESTAPI):
 
     def __init__(self,apiname='OKEX'):
         key,secret=settings.APIKEY[apiname]
-        super(OKCoinFuture, self). __init__(key,secret,apiname,use_proxy=True)
-        
+        super(OKCoinFuture, self). __init__(key,secret,apiname,use_proxy=False)        
     def _format(self,res,*args,**kwards):
         res=self.fmt.to_dataframe(res,*args,**kwards)
         res.columns=[s.upper()  for s in res.columns]
@@ -134,7 +133,7 @@ class OKCoinFuture(RESTAPI):
     def future_kline(self,pair,contract_type,timeframe='1day',size=1000,
                      since='',period={'months':-1},return_url=False):
         if since:
-            since=int(base.str_toTimestamp(since))*1000
+            since=int(base.str_toTimestamp(since))
         elif period:
             since=int(time.mktime((datetime.datetime.now()+relativedelta(**period)).timetuple()))*1000
         
@@ -174,7 +173,7 @@ class OKCoinFuture(RESTAPI):
     def kline_format(self,res,pair,columns):
         try:
             df=pd.DataFrame(res,columns=columns)
-            df['time']=df['time'].apply(base.timestamp_toDatetime)
+            df.index=df['time'].apply(base.timestamp_toDatetime)
             df['pair']=pair
             df['pct_change']=df['close'].pct_change()*100
             df['pct_accumulate']=df['pct_change'].cumsum()
