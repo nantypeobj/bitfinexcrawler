@@ -1,0 +1,1297 @@
+Traceback (most recent call last):
+  File "/root/btc/crawler/updatekline.py", line 47, in <module>
+    print('data updated at time'+str(datetime.datetime.now()))
+NameError: name 'datetime' is not defined
+data updated at time2018-09-03 14:30:02.832621
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+data updated at time2018-09-03 15:00:02.527249
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535957642000.0&limit=128&sort=-1&start=1535727240000
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+data updated at time2018-09-03 15:30:02.169055
+20180903 14:30:00
+1535956200000
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535959442000.0&limit=2&sort=-1&start=1535955840000
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+data updated at time2018-09-03 16:00:02.130742
+20180903 15:00:00
+1535958000000
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535961602000.0&limit=2&sort=-1&start=1535958000000
+  File "/root/btc/crawler/updatekline.py", line 56
+    print('empty data')
+                      ^
+TabError: inconsistent use of tabs and spaces in indentation
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535965202000.0&limit=3&sort=-1&start=1535959800000
+3
+updating date at time2018-09-03 17:00:08.555840
+data updated at time2018-09-03 17:00:08.555890
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535967001000.0&limit=2&sort=-1&start=1535963400000
+2
+updating date at time2018-09-03 17:30:08.147150
+data updated at time2018-09-03 17:30:08.147178
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535968802000.0&limit=2&sort=-1&start=1535965200000
+2
+updating date at time2018-09-03 18:00:08.886366
+data updated at time2018-09-03 18:00:08.886398
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535970602000.0&limit=2&sort=-1&start=1535967000000
+2
+updating date at time2018-09-03 18:30:08.455012
+data updated at time2018-09-03 18:30:08.455053
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535972402000.0&limit=2&sort=-1&start=1535968800000
+2
+updating date at time2018-09-03 19:00:08.414958
+data updated at time2018-09-03 19:00:08.415019
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535974201000.0&limit=2&sort=-1&start=1535970600000
+2
+updating date at time2018-09-03 19:30:08.132526
+data updated at time2018-09-03 19:30:08.132558
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535976002000.0&limit=2&sort=-1&start=1535972400000
+2
+updating date at time2018-09-03 20:00:09.203914
+data updated at time2018-09-03 20:00:09.203950
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535977802000.0&limit=2&sort=-1&start=1535974200000
+2
+updating date at time2018-09-03 20:30:09.003772
+data updated at time2018-09-03 20:30:09.003800
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535979602000.0&limit=2&sort=-1&start=1535976000000
+2
+updating date at time2018-09-03 21:00:08.691198
+data updated at time2018-09-03 21:00:08.691232
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535981402000.0&limit=1&sort=-1&start=1535979600000
+1
+updating date at time2018-09-03 21:30:08.338977
+data updated at time2018-09-03 21:30:08.339008
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535983202000.0&limit=2&sort=-1&start=1535979600000
+2
+updating date at time2018-09-03 22:00:10.041759
+data updated at time2018-09-03 22:00:10.041797
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535985002000.0&limit=2&sort=-1&start=1535981400000
+2
+updating date at time2018-09-03 22:30:08.637441
+data updated at time2018-09-03 22:30:08.637477
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535986802000.0&limit=2&sort=-1&start=1535983200000
+2
+updating date at time2018-09-03 23:00:08.399734
+data updated at time2018-09-03 23:00:08.399769
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535988601000.0&limit=2&sort=-1&start=1535985000000
+2
+updating date at time2018-09-03 23:30:08.013524
+data updated at time2018-09-03 23:30:08.013557
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535990402000.0&limit=2&sort=-1&start=1535986800000
+2
+updating date at time2018-09-04 00:00:08.963935
+data updated at time2018-09-04 00:00:08.963967
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535992202000.0&limit=2&sort=-1&start=1535988600000
+2
+updating date at time2018-09-04 00:30:08.943057
+data updated at time2018-09-04 00:30:08.943083
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535994002000.0&limit=2&sort=-1&start=1535990400000
+2
+updating date at time2018-09-04 01:00:08.740786
+data updated at time2018-09-04 01:00:08.740818
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535995802000.0&limit=2&sort=-1&start=1535992200000
+2
+updating date at time2018-09-04 01:30:08.323836
+data updated at time2018-09-04 01:30:08.323891
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535997602000.0&limit=2&sort=-1&start=1535994000000
+2
+updating date at time2018-09-04 02:00:09.090977
+data updated at time2018-09-04 02:00:09.091004
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1535999402000.0&limit=2&sort=-1&start=1535995800000
+2
+updating date at time2018-09-04 02:30:08.680950
+data updated at time2018-09-04 02:30:08.680980
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536001202000.0&limit=2&sort=-1&start=1535997600000
+2
+updating date at time2018-09-04 03:00:08.450848
+data updated at time2018-09-04 03:00:08.450879
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536003001000.0&limit=2&sort=-1&start=1535999400000
+2
+updating date at time2018-09-04 03:30:08.079672
+data updated at time2018-09-04 03:30:08.079709
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536004802000.0&limit=2&sort=-1&start=1536001200000
+2
+updating date at time2018-09-04 04:00:08.971898
+data updated at time2018-09-04 04:00:08.971939
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536006602000.0&limit=2&sort=-1&start=1536003000000
+2
+updating date at time2018-09-04 04:30:08.548589
+data updated at time2018-09-04 04:30:08.548620
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536008402000.0&limit=2&sort=-1&start=1536004800000
+2
+updating date at time2018-09-04 05:00:08.360206
+data updated at time2018-09-04 05:00:08.360239
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536010202000.0&limit=2&sort=-1&start=1536006600000
+2
+updating date at time2018-09-04 05:30:09.020517
+data updated at time2018-09-04 05:30:09.020550
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536012002000.0&limit=2&sort=-1&start=1536008400000
+2
+updating date at time2018-09-04 06:00:08.715795
+data updated at time2018-09-04 06:00:08.715827
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536013802000.0&limit=2&sort=-1&start=1536010200000
+2
+updating date at time2018-09-04 06:30:08.289823
+data updated at time2018-09-04 06:30:08.289861
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536015602000.0&limit=2&sort=-1&start=1536012000000
+2
+updating date at time2018-09-04 07:00:08.972675
+data updated at time2018-09-04 07:00:08.972708
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536017402000.0&limit=2&sort=-1&start=1536013800000
+2
+updating date at time2018-09-04 07:30:09.498893
+data updated at time2018-09-04 07:30:09.498919
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536019202000.0&limit=2&sort=-1&start=1536015600000
+2
+updating date at time2018-09-04 08:00:08.657805
+data updated at time2018-09-04 08:00:08.657839
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536021032000.0&limit=2&sort=-1&start=1536017400000
+2
+updating date at time2018-09-04 08:30:38.296217
+data updated at time2018-09-04 08:30:38.296265
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536022832000.0&limit=1&sort=-1&start=1536021000000
+1
+updating date at time2018-09-04 09:00:38.981268
+data updated at time2018-09-04 09:00:38.981295
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536024632000.0&limit=1&sort=-1&start=1536022800000
+1
+updating date at time2018-09-04 09:30:38.670289
+data updated at time2018-09-04 09:30:38.670322
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536026432000.0&limit=1&sort=-1&start=1536024600000
+1
+updating date at time2018-09-04 10:00:38.321066
+data updated at time2018-09-04 10:00:38.321108
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536028231000.0&limit=1&sort=-1&start=1536026400000
+1
+updating date at time2018-09-04 10:30:38.466806
+data updated at time2018-09-04 10:30:38.466832
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536030032000.0&limit=1&sort=-1&start=1536028200000
+1
+updating date at time2018-09-04 11:00:38.336457
+data updated at time2018-09-04 11:00:38.336483
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536031831000.0&limit=1&sort=-1&start=1536030000000
+1
+updating date at time2018-09-04 11:30:37.965476
+data updated at time2018-09-04 11:30:37.965504
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536033632000.0&limit=1&sort=-1&start=1536031800000
+1
+updating date at time2018-09-04 12:00:38.612447
+data updated at time2018-09-04 12:00:38.612476
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536035432000.0&limit=1&sort=-1&start=1536033600000
+1
+updating date at time2018-09-04 12:30:38.361610
+data updated at time2018-09-04 12:30:38.361637
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536037232000.0&limit=1&sort=-1&start=1536035400000
+1
+updating date at time2018-09-04 13:00:39.012166
+data updated at time2018-09-04 13:00:39.012194
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536039032000.0&limit=1&sort=-1&start=1536037200000
+1
+updating date at time2018-09-04 13:30:38.711744
+data updated at time2018-09-04 13:30:38.711770
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536040832000.0&limit=1&sort=-1&start=1536039000000
+1
+updating date at time2018-09-04 14:00:39.176565
+data updated at time2018-09-04 14:00:39.176593
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536042632000.0&limit=1&sort=-1&start=1536040800000
+1
+updating date at time2018-09-04 14:30:38.780600
+data updated at time2018-09-04 14:30:38.780628
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536044432000.0&limit=1&sort=-1&start=1536042600000
+1
+updating date at time2018-09-04 15:00:38.741211
+data updated at time2018-09-04 15:00:38.741252
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536046232000.0&limit=1&sort=-1&start=1536044400000
+1
+updating date at time2018-09-04 15:30:38.487532
+data updated at time2018-09-04 15:30:38.487558
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536048031000.0&limit=1&sort=-1&start=1536046200000
+1
+updating date at time2018-09-04 16:00:38.195515
+data updated at time2018-09-04 16:00:38.195542
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536049832000.0&limit=1&sort=-1&start=1536048000000
+1
+updating date at time2018-09-04 16:30:39.247880
+data updated at time2018-09-04 16:30:39.247927
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536051632000.0&limit=1&sort=-1&start=1536049800000
+1
+updating date at time2018-09-04 17:00:38.979000
+data updated at time2018-09-04 17:00:38.979033
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536053432000.0&limit=1&sort=-1&start=1536051600000
+1
+updating date at time2018-09-04 17:30:38.581594
+data updated at time2018-09-04 17:30:38.581620
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536055232000.0&limit=1&sort=-1&start=1536053400000
+1
+updating date at time2018-09-04 18:00:38.288257
+data updated at time2018-09-04 18:00:38.288292
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536057032000.0&limit=1&sort=-1&start=1536055200000
+1
+updating date at time2018-09-04 18:30:39.076653
+data updated at time2018-09-04 18:30:39.076696
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536058832000.0&limit=1&sort=-1&start=1536057000000
+1
+updating date at time2018-09-04 19:00:38.831061
+data updated at time2018-09-04 19:00:38.831091
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536060632000.0&limit=2&sort=-1&start=1536057000000
+2
+updating date at time2018-09-04 19:30:39.049920
+data updated at time2018-09-04 19:30:39.049955
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536062432000.0&limit=2&sort=-1&start=1536058800000
+2
+updating date at time2018-09-04 20:00:38.963503
+data updated at time2018-09-04 20:00:38.963531
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536064232000.0&limit=1&sort=-1&start=1536062400000
+1
+updating date at time2018-09-04 20:30:38.698106
+data updated at time2018-09-04 20:30:38.698135
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536066032000.0&limit=1&sort=-1&start=1536064200000
+1
+updating date at time2018-09-04 21:00:38.377472
+data updated at time2018-09-04 21:00:38.377499
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536067832000.0&limit=1&sort=-1&start=1536066000000
+1
+updating date at time2018-09-04 21:30:38.363847
+data updated at time2018-09-04 21:30:38.363894
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536069631000.0&limit=1&sort=-1&start=1536067800000
+1
+updating date at time2018-09-04 22:00:38.179456
+data updated at time2018-09-04 22:00:38.179487
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536071432000.0&limit=2&sort=-1&start=1536067800000
+2
+updating date at time2018-09-04 22:30:38.771850
+data updated at time2018-09-04 22:30:38.771903
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536073232000.0&limit=1&sort=-1&start=1536071400000
+1
+updating date at time2018-09-04 23:00:38.600001
+data updated at time2018-09-04 23:00:38.600030
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536075031000.0&limit=1&sort=-1&start=1536073200000
+1
+updating date at time2018-09-04 23:30:38.226604
+data updated at time2018-09-04 23:30:38.226636
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536076832000.0&limit=2&sort=-1&start=1536073200000
+2
+updating date at time2018-09-05 00:00:39.037320
+data updated at time2018-09-05 00:00:39.037355
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536078632000.0&limit=1&sort=-1&start=1536076800000
+1
+updating date at time2018-09-05 00:30:38.692992
+data updated at time2018-09-05 00:30:38.693034
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536080432000.0&limit=1&sort=-1&start=1536078600000
+1
+updating date at time2018-09-05 01:00:38.412578
+data updated at time2018-09-05 01:00:38.412611
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536082231000.0&limit=1&sort=-1&start=1536080400000
+1
+updating date at time2018-09-05 01:30:38.384519
+data updated at time2018-09-05 01:30:38.384549
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536084031000.0&limit=1&sort=-1&start=1536082200000
+1
+updating date at time2018-09-05 02:00:38.092652
+data updated at time2018-09-05 02:00:38.092678
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536085832000.0&limit=1&sort=-1&start=1536084000000
+1
+updating date at time2018-09-05 02:30:38.673265
+data updated at time2018-09-05 02:30:38.673302
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536087632000.0&limit=1&sort=-1&start=1536085800000
+1
+updating date at time2018-09-05 03:00:38.875780
+data updated at time2018-09-05 03:00:38.875817
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536089432000.0&limit=1&sort=-1&start=1536087600000
+1
+updating date at time2018-09-05 03:30:38.418325
+data updated at time2018-09-05 03:30:38.418357
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536091231000.0&limit=2&sort=-1&start=1536087600000
+2
+updating date at time2018-09-05 04:00:38.159546
+data updated at time2018-09-05 04:00:38.159580
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536093032000.0&limit=1&sort=-1&start=1536091200000
+1
+updating date at time2018-09-05 04:30:38.786263
+data updated at time2018-09-05 04:30:38.786286
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536094832000.0&limit=1&sort=-1&start=1536093000000
+1
+updating date at time2018-09-05 05:00:38.463829
+data updated at time2018-09-05 05:00:38.463900
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536096631000.0&limit=1&sort=-1&start=1536094800000
+1
+updating date at time2018-09-05 05:30:38.017740
+data updated at time2018-09-05 05:30:38.017765
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536098432000.0&limit=1&sort=-1&start=1536096600000
+1
+updating date at time2018-09-05 06:00:38.821733
+data updated at time2018-09-05 06:00:38.821759
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536100232000.0&limit=2&sort=-1&start=1536096600000
+2
+updating date at time2018-09-05 06:30:38.417931
+data updated at time2018-09-05 06:30:38.417999
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536102031000.0&limit=1&sort=-1&start=1536100200000
+1
+updating date at time2018-09-05 07:00:38.105823
+data updated at time2018-09-05 07:00:38.105850
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536103832000.0&limit=2&sort=-1&start=1536100200000
+2
+updating date at time2018-09-05 07:30:38.671707
+data updated at time2018-09-05 07:30:38.671738
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536105632000.0&limit=2&sort=-1&start=1536102000000
+2
+updating date at time2018-09-05 08:00:38.544663
+data updated at time2018-09-05 08:00:38.544693
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536107432000.0&limit=2&sort=-1&start=1536103800000
+2
+updating date at time2018-09-05 08:30:38.411221
+data updated at time2018-09-05 08:30:38.411257
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536109232000.0&limit=1&sort=-1&start=1536107400000
+1
+updating date at time2018-09-05 09:00:38.412989
+data updated at time2018-09-05 09:00:38.413038
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536111031000.0&limit=1&sort=-1&start=1536109200000
+1
+updating date at time2018-09-05 09:30:37.997659
+data updated at time2018-09-05 09:30:37.997691
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536112832000.0&limit=2&sort=-1&start=1536109200000
+2
+updating date at time2018-09-05 10:00:38.766711
+data updated at time2018-09-05 10:00:38.766746
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536114632000.0&limit=1&sort=-1&start=1536112800000
+1
+updating date at time2018-09-05 10:30:38.377097
+data updated at time2018-09-05 10:30:38.377123
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536116432000.0&limit=2&sort=-1&start=1536112800000
+2
+updating date at time2018-09-05 11:00:39.080407
+data updated at time2018-09-05 11:00:39.080434
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536118232000.0&limit=1&sort=-1&start=1536116400000
+1
+updating date at time2018-09-05 11:30:38.811013
+data updated at time2018-09-05 11:30:38.811042
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536120032000.0&limit=1&sort=-1&start=1536118200000
+1
+updating date at time2018-09-05 12:00:38.720637
+data updated at time2018-09-05 12:00:38.720667
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536121832000.0&limit=1&sort=-1&start=1536120000000
+1
+updating date at time2018-09-05 12:30:38.430287
+data updated at time2018-09-05 12:30:38.430319
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536123632000.0&limit=1&sort=-1&start=1536121800000
+1
+updating date at time2018-09-05 13:00:38.501899
+data updated at time2018-09-05 13:00:38.501927
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536125431000.0&limit=1&sort=-1&start=1536123600000
+1
+updating date at time2018-09-05 13:30:38.095046
+data updated at time2018-09-05 13:30:38.095072
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536127232000.0&limit=1&sort=-1&start=1536125400000
+1
+updating date at time2018-09-05 14:00:39.365579
+data updated at time2018-09-05 14:00:39.365607
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536129031000.0&limit=1&sort=-1&start=1536127200000
+1
+updating date at time2018-09-05 14:30:37.953617
+data updated at time2018-09-05 14:30:37.953644
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536130832000.0&limit=1&sort=-1&start=1536129000000
+1
+updating date at time2018-09-05 15:00:38.748789
+data updated at time2018-09-05 15:00:38.748830
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536132632000.0&limit=1&sort=-1&start=1536130800000
+1
+updating date at time2018-09-05 15:30:38.871824
+data updated at time2018-09-05 15:30:38.871854
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536134432000.0&limit=1&sort=-1&start=1536132600000
+1
+updating date at time2018-09-05 16:00:38.628797
+data updated at time2018-09-05 16:00:38.628832
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536136232000.0&limit=1&sort=-1&start=1536134400000
+1
+updating date at time2018-09-05 16:30:38.379274
+data updated at time2018-09-05 16:30:38.379310
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536138032000.0&limit=1&sort=-1&start=1536136200000
+1
+updating date at time2018-09-05 17:00:38.415596
+data updated at time2018-09-05 17:00:38.415649
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536139832000.0&limit=1&sort=-1&start=1536138000000
+1
+updating date at time2018-09-05 17:30:38.869316
+data updated at time2018-09-05 17:30:38.869362
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536141632000.0&limit=1&sort=-1&start=1536139800000
+1
+updating date at time2018-09-05 18:00:39.001235
+data updated at time2018-09-05 18:00:39.001263
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536143432000.0&limit=1&sort=-1&start=1536141600000
+1
+updating date at time2018-09-05 18:30:38.692807
+data updated at time2018-09-05 18:30:38.692838
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536145232000.0&limit=1&sort=-1&start=1536143400000
+1
+updating date at time2018-09-05 19:00:38.637485
+data updated at time2018-09-05 19:00:38.637515
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536147031000.0&limit=1&sort=-1&start=1536145200000
+1
+updating date at time2018-09-05 19:30:38.242633
+data updated at time2018-09-05 19:30:38.242665
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536148832000.0&limit=1&sort=-1&start=1536147000000
+1
+updating date at time2018-09-05 20:00:38.959695
+data updated at time2018-09-05 20:00:38.959724
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536150632000.0&limit=1&sort=-1&start=1536148800000
+1
+updating date at time2018-09-05 20:30:38.704864
+data updated at time2018-09-05 20:30:38.704905
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536152432000.0&limit=1&sort=-1&start=1536150600000
+1
+updating date at time2018-09-05 21:00:38.501323
+data updated at time2018-09-05 21:00:38.501362
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536154231000.0&limit=1&sort=-1&start=1536152400000
+1
+updating date at time2018-09-05 21:30:38.149733
+data updated at time2018-09-05 21:30:38.149762
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+....requesting url:https://api.bitfinex.com/v2/candles/trade:30m:tEOSUSD/hist?end=1536156032000.0&limit=1&sort=-1&start=1536154200000
+1
+updating date at time2018-09-05 22:00:39.120035
+data updated at time2018-09-05 22:00:39.120091
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation
+  File "/root/btc/crawler/updatekline.py", line 62
+    updatesignal(sys.argv[1],sys.argv[2],usedb)
+                                              ^
+TabError: inconsistent use of tabs and spaces in indentation

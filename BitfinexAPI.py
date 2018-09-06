@@ -211,10 +211,11 @@ class BitfinexAPI(RESTAPI):
     def candels_format(self,res,pair):
         try:
             df=pd.DataFrame(res,columns=['time','open','close','high','low','volume'])
-            df['time']=df['time'].apply(base.timestamp_toDatetime)
+            df.index=df['time'].apply(base.timestamp_toDatetime)
+            df['time']=[int(t) for t in df['time']]
             df['pair']=pair[1:]
             df=df.iloc[::-1]
-            df.set_index('time',inplace=True)
+            #df.set_index('time',inplace=True)
             df['pct_change']=(df['close'].pct_change())*100.0
 #            df['pct_accumulate_adj']=(df['close']/df['close'][0]-1)*100
 #            df['pct_accumulate']=df['pct_change'].cumsum()

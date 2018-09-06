@@ -22,10 +22,10 @@ pais=['tBATUSD','tMNAUSD',
 #       'tFUNUSD','tTNBUSD','tSPKUSD','tRCNUSD','tRLCUSD']
 
 #--抓取tf
-timeframe='1D'
+timeframe='30m'
 #--抓取时间段
 #start,end='20180616','20180715'
-start,end='20150101','20180901'
+start,end='20170101','20180901'
 start_period={}
 end_period={}
 

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 """
 Created on Fri Feb  9 08:42:51 2018
 
@@ -27,7 +28,7 @@ def crawldata(pair,timeframe,start,end):
             time.sleep(10)
             continue
         break
-    res['time']=[str(base.datetime_toTimestamp(t)) for t in res.index]
+#    res['time']=[str(base.datetime_toTimestamp(t)) for t in res.index]
     res=res.reset_index(drop=True)
     db.db_insertdataframe(res,conf.collnam)
 
