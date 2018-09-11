@@ -11,16 +11,17 @@ from DatabaseInterface import DatabaseInterface
 import base
 import datetime
 import time
-
+import re
 
 def initdata_from_okex(pair,timeframe,usedb):
     db=DatabaseInterface(usedb)
     api=OKCoinFuture()
+    fpair,ftimeframe=format_input(pair,timeframe)
     kline=api.future_kline(pair,'quarter',timeframe=timeframe,period={'months':-3},size=5000)
     if not kline.empty:
         kline=kline[['high','low','open','close','time','volume','pct_change']]
-        kline['pair']=pair.replace('_','').upper()
-        db.db_insertdataframe(kline,'KLINE'+timeframe)
+        kline['pair']=fpair
+        db.db_insertdataframe(kline,'KLINE'+ftimeframe)
         return True
     else:
         return False
@@ -53,9 +54,9 @@ def getkline(pair,timeframe,exchangename,start,end=None):
 #更新已有的k线数据到最新
 def updateklinedata(pair,timeframe,exchangename,usedb):
     #取当前数据库中最晚的一条数据的时间加上一秒为起始，获取到当前时间的数据#
-    
     db=DatabaseInterface(usedb)
-    lastrow=db.db_findone('KLINE'+timeframe,filter_dic={'pair':pair},sel_fields=[],sort=[("time", -1)])
+    fpair,ftimeframe=format_input(pair,timeframe)
+    lastrow=db.db_findone('KLINE'+ftimeframe,filter_dic={'pair':fpair},sel_fields=[],sort=[("time", -1)])      
     if lastrow is None:
         if exchangename=='okex':
             return initdata_from_okex(pair,timeframe,usedb)
@@ -72,14 +73,22 @@ def updateklinedata(pair,timeframe,exchangename,usedb):
     if not df is None:
         #对于原始数据进行修正
         df['pct_change'].iloc[0]=(df['close'].iloc[0]-lastrow['close'])*100/lastrow['close']
-        db.db_insertdataframe(df,'KLINE'+timeframe)
+        db.db_insertdataframe(df,'KLINE'+ftimeframe)
         return True
     else:
         return False
 
 def updatesignal(pair,timeframe,usedb):
     db=DatabaseInterface(usedb)
+    pair,timeframe=format_input(pair,timeframe)
     db.db_updateone({'timeframe':timeframe,'pair':pair},{'sig':'1'},'DATAUPDATESIG',upserts=True)
+
+def format_input(pair,timeframe):
+    pair=pair.replace('_','').upper()
+    tf1=re.findall(r'\d+', timeframe)[0]
+    tf2=timeframe[timeframe.index(tf1[-1])+1]
+    return pair,tf1+tf2
+
 
 if __name__ == '__main__':
     #输入值
