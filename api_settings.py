@@ -15,8 +15,8 @@ SERVERS={
 'OKEX':'https://www.okex.com/api',
 'ZB':'http://api.zb.com/data',
 'BIAN':'https://www.binance.com/api',
-'BITFINEX':'https://api.bitfinex.com'
-
+'BITFINEX':'https://api.bitfinex.com',
+'BITMEX':'https://www.bitmex.com/api'
         }
 
 PATH={
@@ -41,6 +41,9 @@ PATH={
             'TRADES':'trades/%s/hist',
             'PORDER':'order/new',
             'BALANCE':'balances'
+            },
+    'BITMEX':{
+            'KLINE':'trade/bucketed'
             }
       }
 
