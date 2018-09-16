@@ -72,7 +72,7 @@ class BitmexAPI(RESTAPI):
             if limit<1:
                 return None
             #end=start+unit*limit*1000
-            klinedata.append(self.candels(symbol,timeframe,start=base.timestamp_toStr(start,dateformat="%Y-%m-%d %H:%M:%S")))
+            klinedata.append(self.candels(symbol,timeframe,start=base.timestamp_toStr(start,dateformat="%Y-%m-%d %H:%M:%S"),limit=limit))
             gap=gap-limit
             start=start+unit*limit*1000
             time.sleep(6)
@@ -120,7 +120,8 @@ class BitmexAPI(RESTAPI):
                                          'turnover','homeNotional','foreignNotional'])
             #df['time']=df['time'].apply(base.timestamp_toDatetime)
             df.columns=['time','pair','open','high','low','close','trades','volume','vwap','lastSize','turnover','homeNotional','foreignNotional']
-	    df.set_index('time',inplace=True)
+            df['time']=[base.str_toTimestamp(t[:-5].replace('T',' '),dateformat="%Y-%m-%d %H:%M:%S") for t in df['time']]
+            df.index=[base.timestamp_toDatetime(t) for t in df['time']]
             df['pct_change']=(df['close'].pct_change())*100.0
 
         except KeyError:

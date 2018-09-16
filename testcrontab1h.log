@@ -5,18 +5,7 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
   self._setitem_with_indexer(indexer, value)
-....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1536670834000.0&limit=1&sort=-1&start=1536667200000
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537081233000.0&limit=1&sort=-1&start=1537077600000
 1
-updating date at time2018-09-11 21:00:40.277113
-data updated at time2018-09-11 21:00:40.277143
-/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
-  InsecureRequestWarning)
-/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-  self._setitem_with_indexer(indexer, value)
-....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1536674433000.0&limit=1&sort=-1&start=1536670800000
-1
-updating date at time2018-09-11 22:00:39.287183
-data updated at time2018-09-11 22:00:39.287211
+updating date at time2018-09-16 15:00:39.691475
+data updated at time2018-09-16 15:00:39.691515

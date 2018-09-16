@@ -5,6 +5,7 @@ Created on Sun Sep  2 13:34:43 2018
 @author: Administrator
 """
 import sys
+
 from  BitfinexAPI import BitfinexAPI
 from  OKCoinFuture import OKCoinFuture
 from DatabaseInterface import DatabaseInterface
@@ -25,6 +26,14 @@ def initdata_from_okex(pair,timeframe,usedb):
         return True
     else:
         return False
+
+def getkline_from_bitmex(pair,timeframe,exchangename,start,end=None):
+    api=BitmexAPI()
+    kline=api.klines(pair,timeframe,start=start,end=end)
+    if not kline.empty:
+        kline=kline[['high','low','open','close','time','volume','pct_change']]
+        kline['pair']='BTCUSD' if pair=='XBTUSD' else pair
+    return kline
 
 def getkline_from_bitfinex(pair,timeframe,exchangename,start,end=None):
     api=BitfinexAPI()
@@ -62,6 +71,7 @@ def updateklinedata(pair,timeframe,exchangename,usedb):
             return initdata_from_okex(pair,timeframe,usedb)
         else:
             assert False,'数据库中没有找到数据'
+
     lasttime=base.timestamp_toStr(float(lastrow['time'])+1,dateformat="%Y%m%d %H:%M:%S")
     #交易所获取k线函数
    # print(lasttime)
@@ -83,8 +93,11 @@ def updatesignal(pair,timeframe,usedb):
     pair,timeframe=format_input(pair,timeframe)
     db.db_updateone({'timeframe':timeframe,'pair':pair},{'sig':'1'},'DATAUPDATESIG',upserts=True)
 
-def format_input(pair,timeframe):
-    pair=pair.replace('_','').upper()
+def format_input(pair,timeframe,exchangename=None):
+    if exchange=='bitmex' and pair=='XBTUSD':
+        pair='BTCUSD'
+    else:
+        pair=pair.replace('_','').upper()
     tf1=re.findall(r'\d+', timeframe)[0]
     tf2=timeframe[timeframe.index(tf1[-1])+1]
     return pair,tf1+tf2

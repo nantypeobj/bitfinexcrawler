@@ -14,10 +14,10 @@ import base
 #tBTCUSD,tLTCUSD,tETHUSD,XRPUSD,EOSUSD,NEOUSD,IOTUSD,OMGUSD,BCHUSD,ETPUSD,tSNTUSD,ETCUSD
 #'tSANUSD','tQTMUSD','tEDOUSD','tDATUSD','tAVTUSD','tQSHUSD','tYYWUSD'
 #       'tGNTUSD','tZRXUSD','tTRXUSD','tELFUSD'
-pair='tBTCUSD'
+pair='XBT'
 pais=['tBATUSD','tMNAUSD',
        'tFUNUSD','tTNBUSD','tSPKUSD','tRCNUSD','tRLCUSD']
-
+pairname='BTCUSD'
 #'tBATUSD','tMNAUSD',
 #       'tFUNUSD','tTNBUSD','tSPKUSD','tRCNUSD','tRLCUSD']
 
@@ -25,7 +25,7 @@ pais=['tBATUSD','tMNAUSD',
 timeframe='5m'
 #--抓取时间段
 #start,end='20180616','20180715'
-start,end='20170101','20180901'
+start,end='2017-01-01','2018-09-11'
 start_period={}
 end_period={}
 
@@ -36,10 +36,10 @@ if not end:
 if not start:
     start=base.date_togapn(end,dateformat="%Y%m%d %H:%M:%S",**end_period)
 
-
+selectfields=['time','pair','open','high','low','close','volume','pct_change']
 
 #====数据库配置
-usedb='data_bitfinex'
+usedb='data_bitmex'
 collnam='KLINE'+timeframe
 
 

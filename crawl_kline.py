@@ -12,16 +12,18 @@ Created on Fri Feb  9 08:42:51 2018
 #from database.DatabaseInterface import DatabaseInterface
 import crawl_config as conf
 import time
+from BitmexAPI import BitmexAPI
 #import common.base as base
 from BitfinexAPI import BitfinexAPI
 from DatabaseInterface import DatabaseInterface
 import base
 
 
-def crawldata(pair,timeframe,start,end):
+def crawldata(pair,timeframe,start,end,selectfields):
     while True:
         try:
             res=api.klines(pair,timeframe,start=start,end=end)
+            res['pair']=conf.pairname
         except IndexError:
             print ('时间段数据不存在，起始时间向后推迟一个月，重试...')
             start=base.date_togapn(start,dateformat="%Y%m%d %H:%M:%S",months=1)
@@ -29,19 +31,20 @@ def crawldata(pair,timeframe,start,end):
             continue
         break
 #    res['time']=[str(base.datetime_toTimestamp(t)) for t in res.index]
+    res=res[selectfields]
     res=res.reset_index(drop=True)
     db.db_insertdataframe(res,conf.collnam)
 
 
 if __name__ == '__main__':
-    api=BitfinexAPI()
+#    api=BitfinexAPI()
+    api=BitmexAPI()
     db=DatabaseInterface(conf.usedb)
     pairs=[conf.pair]
 #    allpairs=['t'+p.upper() for p in api.symbols() if ('usd' in p)]
 #    allpairs=[p for p in allpairs if (not p in pairs)]
-    
+    selectfields=conf.selectfields
     timeframe=conf.timeframe
     start,end=conf.start,conf.end
     for p in pairs:
-        crawldata(p,timeframe,start,end)
-    
+        crawldata(p,timeframe,start,end,selectfields)

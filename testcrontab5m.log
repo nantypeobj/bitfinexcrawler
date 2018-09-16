@@ -1,0 +1,8 @@
+  File "/root/btc/crawler/updatekline.py", line 30
+    def getkline_from_bitmex((pair,timeframe,exchangename,start,end=None):
+                             ^
+SyntaxError: invalid syntax
+  File "/root/btc/crawler/updatekline.py", line 30
+    def getkline_from_bitmex((pair,timeframe,exchangename,start,end=None):
+                             ^
+SyntaxError: invalid syntax
