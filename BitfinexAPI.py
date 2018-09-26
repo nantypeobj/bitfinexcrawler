@@ -206,6 +206,7 @@ class BitfinexAPI(RESTAPI):
             return url
         
         res=self.get_data(url)
+#        print(res)
         return self.candels_format(res,pair)
 #        
     def candels_format(self,res,pair):

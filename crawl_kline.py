@@ -17,12 +17,27 @@ from BitmexAPI import BitmexAPI
 from BitfinexAPI import BitfinexAPI
 from DatabaseInterface import DatabaseInterface
 import base
+from OKCoinFuture import OKCoinFuture
 
+def crawldata(pair,timeframe,start,end,selectfields,contract_type=None,period=None):
+    if conf.exchangename=='bitfinex':
+        api=BitfinexAPI()
+        func=api.klines
+        funcpara={'pair':pair,'timeframe':timeframe,'start':start,'end':end}
+    elif conf.exchangename=='bitmex':
+        api=BitmexAPI()
+        func=api.klines
+        funcpara={'pair':pair,'timeframe':timeframe,'start':start,'end':end}
+    elif conf.exchangename=='okex':
+        api=OKCoinFuture()
+        func=api.future_kline
+        funcpara={'pair':pair,'timeframe':timeframe,'period':period,'contract_type':contract_type,'size':5000}
+    else:
+        assert False,'no such exchangename'
 
-def crawldata(pair,timeframe,start,end,selectfields):
     while True:
         try:
-            res=api.klines(pair,timeframe,start=start,end=end)
+            res=func(**funcpara)
             res['pair']=conf.pairname
         except IndexError:
             print ('时间段数据不存在，起始时间向后推迟一个月，重试...')
@@ -36,15 +51,18 @@ def crawldata(pair,timeframe,start,end,selectfields):
     db.db_insertdataframe(res,conf.collnam)
 
 
+
 if __name__ == '__main__':
 #    api=BitfinexAPI()
-    api=BitmexAPI()
+#    api=BitmexAPI()
     db=DatabaseInterface(conf.usedb)
     pairs=[conf.pair]
 #    allpairs=['t'+p.upper() for p in api.symbols() if ('usd' in p)]
 #    allpairs=[p for p in allpairs if (not p in pairs)]
     selectfields=conf.selectfields
     timeframe=conf.timeframe
+    contract_type=conf.contract_type
+    period=conf.period                                                       
     start,end=conf.start,conf.end
     for p in pairs:
-        crawldata(p,timeframe,start,end,selectfields)
+        crawldata(p,timeframe,start,end,selectfields,contract_type,period)

@@ -1,0 +1,468 @@
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 05:00:01,20180925 14:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 05:00:01&symbol=XBTUSD
+(1, 8)
+                           close    high   low
+2018-09-25 06:00:00+08:00   6461  6464.5  6448
+1
+updating date at time2018-09-25 15:00:13.016118
+data updated at time2018-09-25 15:00:13.016144
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 06:00:01,20180925 15:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 06:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high     low
+2018-09-25 07:00:00+08:00  6418.5  6462  6408.5
+1
+updating date at time2018-09-25 16:00:13.871941
+data updated at time2018-09-25 16:00:13.871978
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 07:00:01,20180925 16:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 07:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high   low
+2018-09-25 08:00:00+08:00  6375.5  6437  6357
+1
+updating date at time2018-09-25 17:00:13.139802
+data updated at time2018-09-25 17:00:13.139844
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 08:00:01,20180925 17:00:05
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 08:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high     low
+2018-09-25 09:00:00+08:00   6404  6414  6361.5
+1
+updating date at time2018-09-25 18:00:14.060427
+data updated at time2018-09-25 18:00:14.060454
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 09:00:01,20180925 18:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 09:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 10:00:00+08:00   6406  6417  6391
+1
+updating date at time2018-09-25 19:00:13.118729
+data updated at time2018-09-25 19:00:13.118771
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 10:00:01,20180925 19:00:05
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 10:00:01&symbol=XBTUSD
+(1, 8)
+                           close    high     low
+2018-09-25 11:00:00+08:00   6405  6408.5  6389.5
+1
+updating date at time2018-09-25 20:00:12.307007
+data updated at time2018-09-25 20:00:12.307039
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 11:00:01,20180925 20:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 11:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 12:00:00+08:00   6392  6405  6372
+1
+updating date at time2018-09-25 21:00:13.099358
+data updated at time2018-09-25 21:00:13.099385
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 12:00:01,20180925 21:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 12:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 13:00:00+08:00   6437  6448  6381
+1
+updating date at time2018-09-25 22:00:13.714337
+data updated at time2018-09-25 22:00:13.714370
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 13:00:01,20180925 22:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 13:00:01&symbol=XBTUSD
+(1, 8)
+                            close    high   low
+2018-09-25 14:00:00+08:00  6411.5  6437.5  6407
+1
+updating date at time2018-09-25 23:00:13.110493
+data updated at time2018-09-25 23:00:13.110522
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 14:00:01,20180925 23:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 14:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 15:00:00+08:00   6415  6422  6378
+1
+updating date at time2018-09-26 00:00:13.604983
+data updated at time2018-09-26 00:00:13.605015
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 15:00:01,20180926 00:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 15:00:01&symbol=XBTUSD
+(1, 8)
+                            close    high   low
+2018-09-25 16:00:00+08:00  6400.5  6415.5  6330
+1
+updating date at time2018-09-26 01:00:13.299674
+data updated at time2018-09-26 01:00:13.299700
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 16:00:01,20180926 01:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 16:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 17:00:00+08:00   6385  6415  6385
+1
+updating date at time2018-09-26 02:00:13.073792
+data updated at time2018-09-26 02:00:13.073822
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 17:00:01,20180926 02:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 17:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high   low
+2018-09-25 18:00:00+08:00  6387.5  6400  6358
+1
+updating date at time2018-09-26 03:00:13.269226
+data updated at time2018-09-26 03:00:13.269259
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 18:00:01,20180926 03:00:05
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 18:00:01&symbol=XBTUSD
+(1, 8)
+                           close    high     low
+2018-09-25 19:00:00+08:00   6347  6390.5  6311.5
+1
+updating date at time2018-09-26 04:00:12.717600
+data updated at time2018-09-26 04:00:12.717625
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 19:00:01,20180926 04:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 19:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 20:00:00+08:00   6358  6375  6336
+1
+updating date at time2018-09-26 05:00:12.985244
+data updated at time2018-09-26 05:00:12.985274
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 20:00:01,20180926 05:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 20:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 21:00:00+08:00   6382  6406  6358
+1
+updating date at time2018-09-26 06:00:13.322278
+data updated at time2018-09-26 06:00:13.322316
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 21:00:01,20180926 06:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 21:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-25 22:00:00+08:00   6386  6394  6370
+1
+updating date at time2018-09-26 07:00:12.971744
+data updated at time2018-09-26 07:00:12.971779
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 22:00:01,20180926 07:00:05
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 22:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high   low
+2018-09-25 23:00:00+08:00  6388.5  6399  6374
+1
+updating date at time2018-09-26 08:00:12.628787
+data updated at time2018-09-26 08:00:12.628818
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180925 23:00:01,20180926 08:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-25 23:00:01&symbol=XBTUSD
+(1, 8)
+                           close    high   low
+2018-09-26 00:00:00+08:00   6429  6433.5  6385
+1
+updating date at time2018-09-26 09:00:13.454004
+data updated at time2018-09-26 09:00:13.454041
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 00:00:01,20180926 09:00:05
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 00:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high     low
+2018-09-26 01:00:00+08:00  6402.5  6429  6397.5
+1
+updating date at time2018-09-26 10:00:12.892725
+data updated at time2018-09-26 10:00:12.892766
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 01:00:01,20180926 10:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 01:00:01&symbol=XBTUSD
+(1, 8)
+                            close    high   low
+2018-09-26 02:00:00+08:00  6391.5  6404.5  6381
+1
+updating date at time2018-09-26 11:00:13.315092
+data updated at time2018-09-26 11:00:13.315120
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 02:00:01,20180926 11:00:05
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 02:00:01&symbol=XBTUSD
+(1, 8)
+                            close    high   low
+2018-09-26 03:00:00+08:00  6390.5  6398.5  6390
+1
+updating date at time2018-09-26 12:00:12.506421
+data updated at time2018-09-26 12:00:12.506451
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 03:00:01,20180926 12:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 03:00:01&symbol=XBTUSD
+(1, 8)
+                           close  high   low
+2018-09-26 04:00:00+08:00   6378  6393  6377
+1
+updating date at time2018-09-26 13:00:12.841456
+data updated at time2018-09-26 13:00:12.841487
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 04:00:01,20180926 13:00:07
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 04:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high     low
+2018-09-26 05:00:00+08:00  6389.5  6393  6377.5
+1
+updating date at time2018-09-26 14:00:13.863212
+data updated at time2018-09-26 14:00:13.863252
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 05:00:01,20180926 14:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 05:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high   low
+2018-09-26 06:00:00+08:00  6433.5  6459  6389
+1
+updating date at time2018-09-26 15:00:13.182413
+data updated at time2018-09-26 15:00:13.182440
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitmex
+<class 'str'>
+20180926 06:00:01,20180926 15:00:06
+9
+....requesting url:https://www.bitmex.com/api/v1/trade/bucketed?binSize=1h&count=9&startTime=2018-09-26 06:00:01&symbol=XBTUSD
+(1, 8)
+                            close  high   low
+2018-09-26 07:00:00+08:00  6424.5  6440  6419
+1
+updating date at time2018-09-26 16:00:13.477766
+data updated at time2018-09-26 16:00:13.477799

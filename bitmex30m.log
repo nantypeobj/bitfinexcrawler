@@ -1,0 +1,104 @@
+bitmex 30m data updated
+{'close': 6437.5, 'high': 6462.0, 'pctchange': -0.356009596780435, 'time': 1537826400000.0, 'pair': 'BTCUSD', 'volume': 23558110.0, 'low': 6437.0, 'open': 6460.5}
+bitmex 30m data updated
+{'close': 6422.5, 'volume': 55390372.0, 'open': 6437.5, 'pctchange': -0.23300970873786409, 'pair': 'BTCUSD', 'low': 6422.0, 'time': 1537828200000.0, 'high': 6444.0}
+bitmex 30m data updated
+{'pctchange': 0.18684312962242117, 'volume': 44367972.0, 'pair': 'BTCUSD', 'time': 1537830000000.0, 'high': 6437.0, 'open': 6422.5, 'low': 6408.5, 'close': 6434.5}
+bitmex 30m data updated
+{'high': 6434.5, 'close': 6384.5, 'open': 6434.5, 'volume': 136569866.0, 'pctchange': -0.777061154712876, 'time': 1537831800000.0, 'pair': 'BTCUSD', 'low': 6357.0}
+bitmex 30m data updated
+{'pair': 'BTCUSD', 'low': 6361.5, 'volume': 81417403.0, 'open': 6384.5, 'time': 1537833600000.0, 'pctchange': 0.03915733416868979, 'close': 6387.0, 'high': 6405.0}
+bitmex 30m data updated
+{'low': 6384.5, 'time': 1537835400000.0, 'pctchange': 0.25833724753405357, 'close': 6403.5, 'high': 6414.0, 'pair': 'BTCUSD', 'open': 6387.0, 'volume': 32736704.0}
+bitmex 30m data updated
+{'high': 6417.0, 'low': 6396.0, 'pair': 'BTCUSD', 'pctchange': 0.015616459748574998, 'time': 1537837200000.0, 'close': 6404.5, 'volume': 47721758.0, 'open': 6403.5}
+bitmex 30m data updated
+{'time': 1537839000000.0, 'pair': 'BTCUSD', 'pctchange': -0.02342103208681396, 'volume': 26714040.0, 'high': 6409.0, 'close': 6403.0, 'open': 6404.5, 'low': 6391.0}
+bitmex 30m data updated
+{'pair': 'BTCUSD', 'open': 6403.0, 'low': 6396.0, 'volume': 22769872.0, 'close': 6396.5, 'time': 1537840800000.0, 'high': 6408.5, 'pctchange': -0.10151491488364829}
+bitmex 30m data updated
+{'volume': 33162032.0, 'high': 6406.0, 'pctchange': 0.10161807238333463, 'pair': 'BTCUSD', 'time': 1537842600000.0, 'close': 6403.0, 'low': 6389.5, 'open': 6396.5}
+bitmex 30m data updated
+{'time': 1537844400000.0, 'high': 6405.0, 'open': 6403.0, 'close': 6394.0, 'pctchange': -0.1405591129158207, 'volume': 29396140.0, 'low': 6383.5, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'time': 1537846200000.0, 'close': 6388.5, 'open': 6394.0, 'low': 6372.0, 'volume': 52830225.0, 'pctchange': -0.08601814200813263, 'high': 6396.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'low': 6381.0, 'time': 1537848000000.0, 'high': 6402.0, 'volume': 32937299.0, 'pctchange': 0.20349064725678953, 'close': 6401.5, 'open': 6388.5, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'low': 6397.0, 'close': 6438.5, 'open': 6401.5, 'pctchange': 0.5779895337030384, 'volume': 96420528.0, 'high': 6448.0, 'time': 1537849800000.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'open': 6438.5, 'pctchange': -0.2640366545002718, 'low': 6413.0, 'time': 1537851600000.0, 'close': 6421.5, 'volume': 57763667.0, 'high': 6441.5, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'close': 6415.5, 'open': 6421.5, 'high': 6424.0, 'volume': 14827133.0, 'low': 6415.0, 'pair': 'BTCUSD', 'time': 1537853400000.0, 'pctchange': -0.09343611305769679}
+bitmex 30m data updated
+{'low': 6378.0, 'high': 6419.5, 'time': 1537855200000.0, 'volume': 86542344.0, 'open': 6415.5, 'close': 6416.5, 'pctchange': 0.015587249629802822, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'close': 6420.5, 'time': 1537857000000.0, 'low': 6411.5, 'pctchange': 0.06233928153978025, 'open': 6416.5, 'high': 6422.0, 'volume': 21331399.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'open': 6420.5, 'pair': 'BTCUSD', 'low': 6388.0, 'close': 6401.5, 'time': 1537858800000.0, 'pctchange': -0.2959271084806479, 'volume': 44370548.0, 'high': 6421.0}
+bitmex 30m data updated
+{'pctchange': -0.06248535499492307, 'low': 6330.0, 'volume': 121441397.0, 'time': 1537860600000.0, 'close': 6397.5, 'high': 6415.5, 'open': 6401.5, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'high': 6415.0, 'volume': 33832077.0, 'pctchange': 0.27354435326299337, 'low': 6393.5, 'time': 1537862400000.0, 'close': 6415.0, 'pair': 'BTCUSD', 'open': 6397.5}
+bitmex 30m data updated
+{'close': 6391.0, 'pctchange': -0.37412314886983633, 'low': 6391.0, 'high': 6415.0, 'volume': 30994911.0, 'time': 1537864200000.0, 'open': 6415.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'pair': 'BTCUSD', 'time': 1537866000000.0, 'open': 6391.0, 'low': 6382.5, 'close': 6397.5, 'pctchange': 0.10170552339227037, 'high': 6397.5, 'volume': 26820917.0}
+bitmex 30m data updated
+{'high': 6400.0, 'pair': 'BTCUSD', 'close': 6360.5, 'open': 6397.5, 'time': 1537867800000.0, 'volume': 31684584.0, 'low': 6360.0, 'pctchange': -0.5783509183274717}
+bitmex 30m data updated
+{'low': 6311.5, 'pctchange': 0.20438644760632027, 'volume': 131872116.0, 'pair': 'BTCUSD', 'close': 6373.5, 'high': 6393.5, 'time': 1537869600000.0, 'open': 6360.5}
+bitmex 30m data updated
+{'open': 6373.5, 'volume': 98982485.0, 'close': 6348.5, 'pctchange': -0.39224915666431315, 'time': 1537871400000.0, 'pair': 'BTCUSD', 'low': 6341.5, 'high': 6379.0}
+bitmex 30m data updated
+{'close': 6352.0, 'high': 6358.0, 'open': 6348.5, 'volume': 44504084.0, 'time': 1537873200000.0, 'low': 6336.0, 'pctchange': 0.05513113333858392, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'close': 6365.0, 'open': 6352.0, 'pair': 'BTCUSD', 'time': 1537875000000.0, 'volume': 29717979.0, 'low': 6351.0, 'high': 6375.0, 'pctchange': 0.20465994962216624}
+bitmex 30m data updated
+{'time': 1537876800000.0, 'high': 6395.0, 'close': 6395.0, 'open': 6365.0, 'pair': 'BTCUSD', 'pctchange': 0.4713275726630008, 'low': 6354.0, 'volume': 40028161.0}
+bitmex 30m data updated
+{'open': 6395.0, 'pctchange': -0.17200938232994528, 'time': 1537878600000.0, 'pair': 'BTCUSD', 'volume': 51982794.0, 'low': 6378.5, 'high': 6406.0, 'close': 6384.0}
+bitmex 30m data updated
+{'pctchange': -0.07832080200501253, 'low': 6374.0, 'close': 6379.0, 'open': 6384.0, 'time': 1537880400000.0, 'high': 6389.5, 'volume': 20603652.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'time': 1537882200000.0, 'pctchange': 0.18027904060197522, 'high': 6394.0, 'open': 6379.0, 'low': 6370.0, 'close': 6390.5, 'pair': 'BTCUSD', 'volume': 21899142.0}
+bitmex 30m data updated
+{'pctchange': -0.15648227838197323, 'close': 6380.5, 'pair': 'BTCUSD', 'low': 6374.0, 'high': 6390.5, 'time': 1537884000000.0, 'volume': 18283029.0, 'open': 6390.5}
+bitmex 30m data updated
+{'time': 1537885800000.0, 'volume': 35424208.0, 'pctchange': 0.12538202335240184, 'close': 6388.5, 'low': 6380.5, 'open': 6380.5, 'pair': 'BTCUSD', 'high': 6399.0}
+bitmex 30m data updated
+{'volume': 32474046.0, 'close': 6400.5, 'low': 6385.0, 'pctchange': 0.1878375205447288, 'time': 1537887600000.0, 'open': 6388.5, 'pair': 'BTCUSD', 'high': 6405.0}
+bitmex 30m data updated
+{'open': 6400.5, 'low': 6398.5, 'high': 6433.5, 'pctchange': 0.28903991875634716, 'volume': 59547078.0, 'close': 6419.0, 'time': 1537889400000.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'low': 6411.5, 'high': 6429.0, 'pctchange': -0.07789375292101573, 'open': 6419.0, 'pair': 'BTCUSD', 'time': 1537891200000.0, 'close': 6414.0, 'volume': 31489432.0}
+bitmex 30m data updated
+{'volume': 20699390.0, 'time': 1537893000000.0, 'low': 6397.5, 'pair': 'BTCUSD', 'pctchange': -0.25724976613657624, 'open': 6414.0, 'close': 6397.5, 'high': 6414.5}
+bitmex 30m data updated
+{'volume': 21204638.0, 'high': 6404.5, 'low': 6393.0, 'pair': 'BTCUSD', 'pctchange': -0.07033997655334115, 'close': 6393.0, 'open': 6397.5, 'time': 1537894800000.0}
+bitmex 30m data updated
+{'volume': 27454648.0, 'open': 6393.0, 'low': 6381.0, 'pctchange': -0.13295792272798374, 'close': 6384.5, 'time': 1537896600000.0, 'pair': 'BTCUSD', 'high': 6394.0}
+bitmex 30m data updated
+{'high': 6398.5, 'pair': 'BTCUSD', 'open': 6384.5, 'low': 6384.5, 'time': 1537898400000.0, 'volume': 8894229.0, 'close': 6398.5, 'pctchange': 0.21928107134466285}
+bitmex 30m data updated
+{'close': 6390.5, 'time': 1537900200000.0, 'high': 6398.5, 'pair': 'BTCUSD', 'low': 6390.0, 'pctchange': -0.12502930374306478, 'open': 6398.5, 'volume': 11949760.0}
+bitmex 30m data updated
+{'high': 6393.0, 'volume': 15148975.0, 'pair': 'BTCUSD', 'open': 6390.5, 'pctchange': 0.023472341757295987, 'close': 6392.0, 'low': 6386.5, 'time': 1537902000000.0}
+bitmex 30m data updated
+{'pctchange': -0.15644555694618273, 'high': 6392.5, 'open': 6392.0, 'time': 1537903800000.0, 'close': 6382.0, 'volume': 11779676.0, 'low': 6382.0, 'pair': 'BTCUSD'}
+bitmex 30m data updated
+{'open': 6382.0, 'pair': 'BTCUSD', 'close': 6390.0, 'pctchange': 0.12535255405828893, 'time': 1537905600000.0, 'high': 6390.0, 'low': 6377.0, 'volume': 19222278.0}
+bitmex 30m data updated
+{'pctchange': -0.01564945226917058, 'low': 6387.5, 'volume': 10176773.0, 'time': 1537907400000.0, 'open': 6390.0, 'pair': 'BTCUSD', 'close': 6389.0, 'high': 6393.0}
+bitmex 30m data updated
+{'pctchange': 0.7434653310377211, 'low': 6388.5, 'pair': 'BTCUSD', 'close': 6436.5, 'high': 6439.5, 'open': 6389.0, 'volume': 109270640.0, 'time': 1537909200000.0}
+bitmex 30m data updated
+{'close': 6439.0, 'volume': 72154424.0, 'low': 6429.5, 'pair': 'BTCUSD', 'high': 6459.0, 'pctchange': 0.038840985007379786, 'time': 1537911000000.0, 'open': 6436.5}
+bitmex 30m data updated
+{'low': 6421.0, 'volume': 30267325.0, 'pair': 'BTCUSD', 'high': 6440.0, 'open': 6439.0, 'time': 1537912800000.0, 'close': 6421.0, 'pctchange': -0.279546513433763}
+bitmex 30m data updated
+{'close': 6423.5, 'open': 6421.0, 'low': 6419.0, 'pctchange': 0.0389347453667653, 'high': 6423.5, 'volume': 21464588.0, 'pair': 'BTCUSD', 'time': 1537914600000.0}
+bitmex 30m data updated
+{'high': 6453.0, 'pctchange': 0.33470849225500116, 'volume': 40391255.0, 'open': 6423.5, 'pair': 'BTCUSD', 'close': 6445.0, 'low': 6423.0, 'time': 1537916400000.0}
+bitmex 30m data updated
+{'time': 1537918200000.0, 'close': 6443.0, 'open': 6445.0, 'low': 6435.0, 'pctchange': -0.031031807602792862, 'pair': 'BTCUSD', 'volume': 16038080.0, 'high': 6445.0}

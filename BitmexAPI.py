@@ -66,8 +66,10 @@ class BitmexAPI(RESTAPI):
             unit=60*60*24*30*unit_val
 
         gap=(end-start)/(int(timeframe[:-1])*1000*(60 if timeframe[-1]=='m' else (60*60 if timeframe[-1]=='h' else 24*60*60)))
+        gap=int(gap)
         klinedata=[]
         while gap>0:
+            print(gap)
             limit=min(750,gap)
             if limit<1:
                 return None

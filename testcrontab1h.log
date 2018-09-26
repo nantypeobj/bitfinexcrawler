@@ -5,7 +5,120 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
   self._setitem_with_indexer(indexer, value)
-....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537081233000.0&limit=1&sort=-1&start=1537077600000
+1hBTCUSDdata_bitfinex
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537326302000.0&limit=1&sort=-1&start=1537322401000
+[[1537326000000, 6345, 6356.2, 6368, 6344.9, 80.70323288]]
+                            close  high     low
+time                                           
+2018-09-19 11:00:00+08:00  6356.2  6368  6344.9
+tBTCUSD1h20180919 10:00:01None
 1
-updating date at time2018-09-16 15:00:39.691475
-data updated at time2018-09-16 15:00:39.691515
+BTCUSD1hbitfinexdata_bitfinex
+updating date at time2018-09-19 11:05:08.321951
+data updated at time2018-09-19 11:05:08.321972
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitfinex
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537329902000.0&limit=1&sort=-1&start=1537326001000
+[[1537329600000, 6360.9, 6355.7, 6362.1, 6352.6, 37.97019787]]
+                            close    high     low
+time                                             
+2018-09-19 12:00:00+08:00  6355.7  6362.1  6352.6
+tBTCUSD1h20180919 11:00:01None
+1
+BTCUSD1hbitfinexdata_bitfinex
+updating date at time2018-09-19 12:05:08.942742
+data updated at time2018-09-19 12:05:08.942762
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitfinex
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537333502000.0&limit=1&sort=-1&start=1537329601000
+[[1537333200000, 6340.1, 6340, 6344.2, 6340, 16.60283921]]
+                           close    high   low
+time                                          
+2018-09-19 13:00:00+08:00   6340  6344.2  6340
+tBTCUSD1h20180919 12:00:01None
+1
+BTCUSD1hbitfinexdata_bitfinex
+updating date at time2018-09-19 13:05:09.660974
+data updated at time2018-09-19 13:05:09.660997
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitfinex
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537337222000.0&limit=1&sort=-1&start=1537333201000
+[[1537336800000, 6345.8, 6344.1, 6347.18856341, 6343.9, 6.58079889]]
+                            close         high     low
+time                                                  
+2018-09-19 14:00:00+08:00  6344.1  6347.188563  6343.9
+tBTCUSD1h20180919 13:00:01None
+1
+BTCUSD1hbitfinexdata_bitfinex
+updating date at time2018-09-19 14:07:09.887213
+data updated at time2018-09-19 14:07:09.887244
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitfinex
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537341002000.0&limit=1&sort=-1&start=1537336801000
+[[1537340400000, 6352.9, 6342.9, 6353, 6336.8, 66.51322256]]
+                            close  high     low
+time                                           
+2018-09-19 15:00:00+08:00  6342.9  6353  6336.8
+tBTCUSD1h20180919 14:00:01None
+1
+BTCUSD1hbitfinexdata_bitfinex
+updating date at time2018-09-19 15:10:08.680826
+data updated at time2018-09-19 15:10:08.680846
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:794: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py:189: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self._setitem_with_indexer(indexer, value)
+1hBTCUSDdata_bitfinex
+<class 'str'>
+20180919 00:00:01,20180919 17:00:05
+....requesting url:https://api.bitfinex.com/v2/candles/trade:1h:tBTCUSD/hist?end=1537347605000.0&limit=17&sort=-1&start=1537286401000
+                                 close    high          low
+time                                                       
+2018-09-19 01:00:00+08:00  6324.900000  6348.0  6314.000000
+2018-09-19 02:00:00+08:00  6334.900000  6347.2  6315.100000
+2018-09-19 03:00:00+08:00  6299.700000  6338.1  6299.600000
+2018-09-19 04:00:00+08:00  6319.500000  6346.8  6295.000000
+2018-09-19 05:00:00+08:00  6322.700000  6330.0  6312.600000
+2018-09-19 06:00:00+08:00  6354.154388  6379.4  6322.700000
+2018-09-19 07:00:00+08:00  6335.400000  6361.9  6325.600000
+2018-09-19 08:00:00+08:00  6321.936599  6336.8  6315.000000
+2018-09-19 09:00:00+08:00  6344.200000  6362.1  6321.900000
+2018-09-19 10:00:00+08:00  6344.900000  6345.0  6337.100000
+2018-09-19 11:00:00+08:00  6359.100000  6375.1  6335.000000
+2018-09-19 12:00:00+08:00  6340.100000  6362.1  6330.000000
+2018-09-19 13:00:00+08:00  6344.500000  6351.8  6336.062746
+2018-09-19 14:00:00+08:00  6353.400000  6369.8  6343.900000
+2018-09-19 15:00:00+08:00  6355.605287  6359.6  6330.500000
+2018-09-19 16:00:00+08:00  6346.542555  6365.0  6346.500000
+2018-09-19 17:00:00+08:00  6320.300000  6346.6  6292.000000
+tBTCUSD1h20180919 00:00:0120180919 17:00:05
+17
+updating date at time2018-09-19 18:00:11.971991
+data updated at time2018-09-19 18:00:11.972022
